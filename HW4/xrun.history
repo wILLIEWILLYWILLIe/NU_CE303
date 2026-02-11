@@ -1,0 +1,31 @@
+s1(23Oct2025:19:20:15):  xrun alu.v alu_tb.v 
+s2(23Oct2025:19:20:36):  xrun alu.v alu_tb.v 
+s3(23Oct2025:19:20:52):  xrun alu.v alu_tb.v 
+s4(23Oct2025:19:21:30):  xrun alu.v alu_tb.v 
+s5(23Oct2025:19:21:52):  xrun alu.v alu_tb.v 
+s6(23Oct2025:19:22:44):  xrun alu.v alu_tb.v 
+s7(23Oct2025:19:23:25):  xrun alu.v alu_tb.v 
+s8(23Oct2025:19:23:46):  xrun alu.v alu_tb.v 
+s9(23Oct2025:19:24:28):  xrun alu.v alu_tb.v 
+s10(23Oct2025:19:24:34):  xrun alu.v alu_tb.v 
+s11(23Oct2025:19:24:47):  xrun alu.v alu_tb.v 
+s12(23Oct2025:19:25:01):  xrun alu.v alu_tb.v 
+s13(23Oct2025:19:26:38):  xrun alu.v alu_tb.v 
+s14(23Oct2025:19:27:35):  xrun alu.v alu_tb.v 
+s15(23Oct2025:19:27:45):  xrun alu.v alu_tb.v 
+s16(23Oct2025:19:31:26):  xrun alu.v alu_tb.v 
+s17(23Oct2025:20:03:01):  xrun -64bit -gui -access r alu.v alu_tb.v 
+s18(23Oct2025:20:18:34):  xrun -64bit -gui -access r alu.v tb_alu_wave.v 
+s19(23Oct2025:20:27:15):  xrun -64bit -gui -access r alu.v tb_alu_wave.v 
+s20(23Oct2025:20:39:01):  xrun -64bit -gui -access r alu.v tb_alu_wave.v 
+s21(23Oct2025:20:39:11):  xrun -64bit -gui -access r alu.v tb_alu_wave.v 
+s22(23Oct2025:20:39:25):  xrun -64bit -gui -access r alu.v tb_alu_wave.v 
+s23(23Oct2025:20:40:09):  xrun -64bit -gui -access r alu.v tb_alu_wave.v 
+s24(23Oct2025:20:43:39):  xrun -64bit -gui -access r alu.v tb_alu_wave.v 
+s25(23Oct2025:20:50:37):  xrun -64bit -gui -access r alu.v tb_alu_wave.v 
+s26(24Oct2025:12:58:40):  xrun -64bit -gui -access r alu.v tb_alu_wave.v 
+s27(24Oct2025:13:40:08):  xrun -64bit -gui -access r ./Synthesis/alu_syn.v tb_alu_wave.v 
+s28(24Oct2025:13:41:58):  xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./Synthesis/alu_syn.v tb_alu_wave.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v 
+s29(24Oct2025:13:43:33):  xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./Synthesis/alu_syn.v tb_alu_wave.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v 
+s30(24Oct2025:18:28:46):  xrun alu.v tb_alu_wave.v 
+s31(11Nov2025:15:40:34):  xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./Synthesis/alu_syn.v tb_alu_wave.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v 

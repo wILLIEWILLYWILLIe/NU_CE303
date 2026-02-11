@@ -1,0 +1,1 @@
+xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./mac.v ./mac_tb.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v

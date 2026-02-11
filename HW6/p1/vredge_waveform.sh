@@ -1,0 +1,1 @@
+xrun -64bit -gui -access r vredge.v vredge_tb.v

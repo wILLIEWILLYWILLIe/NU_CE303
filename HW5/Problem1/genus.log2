@@ -1,0 +1,24 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 18.14-s037_1, built Wed Mar 27 10:19:21 PDT 2019
+Options: mac.tcl 
+Date:    Tue Nov 18 20:34:02 2025
+Host:    finagle.wot.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.78.1.el8_10.x86_64) (12cores*48cpus*2physical cpus*Intel(R) Xeon(R) Gold 5317 CPU @ 3.00GHz 18432KB) (65114872KB)
+OS:      Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+Checking out license: Genus_Synthesis
+
+Threads Configured:3
+  Setting attribute of root '/': 'library' = /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib
+Checking for analog nets...
+Check completed for analog nets.
+Checking for source RTL...
+Check completed for source RTL.
+invalid command name "current_design"
+    while executing
+"current_design $TOP"
+    (file "mac.tcl" line 14)
+Abnormal exit.

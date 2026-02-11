@@ -1,0 +1,71 @@
+xrun(64): 18.09-s011: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	18.09-s011: Started on Dec 01, 2025 at 10:26:46 CST
+xrun
+	-64bit
+	-gui
+	-access r
+	vredge.v
+	vredge_tb.v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /vol/cadence2018/XCELIUM1809/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm tb_Vredge.EDGE tb_Vredge.X tb_Vredge.clk tb_Vredge.rst_n tb_Vredge.state_dbg
+Created probe 1
+xcelium> run
+ time   clk  X  EDGE  state
+    0   0    0   0    00
+ 5000   1    0   0    00
+10000   0    0   0    00
+15000   1    0   0    00
+20000   0    0   0    00
+25000   1    0   0    00
+30000   0    0   0    00
+35000   1    0   0    00
+40000   0    1   0    00
+45000   1    1   1    01
+50000   0    1   1    01
+55000   1    1   0    10
+60000   0    0   0    10
+65000   1    0   1    11
+70000   0    0   1    11
+75000   1    0   0    00
+80000   0    1   0    00
+85000   1    1   1    01
+90000   0    0   1    01
+95000   1    0   1    11
+100000   0    1   1    11
+105000   1    1   1    01
+110000   0    1   1    01
+115000   1    1   0    10
+120000   0    0   0    10
+125000   1    0   1    11
+130000   0    1   1    11
+135000   1    1   1    01
+140000   0    1   1    01
+145000   1    1   0    10
+150000   0    1   0    10
+155000   1    1   0    10
+160000   0    1   0    10
+165000   1    1   0    10
+170000   0    1   0    10
+175000   1    1   0    10
+180000   0    1   0    10
+185000   1    1   0    10
+190000   0    0   0    10
+195000   1    0   1    11
+200000   0    1   1    11
+205000   1    1   1    01
+210000   0    1   1    01
+215000   1    1   0    10
+220000   0    1   0    10
+225000   1    1   0    10
+230000   0    1   0    10
+Simulation complete via $finish(1) at time 235 NS + 0
+./vredge_tb.v:56         $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	18.09-s011: Exiting on Dec 01, 2025 at 10:44:25 CST  (total: 00:17:39)

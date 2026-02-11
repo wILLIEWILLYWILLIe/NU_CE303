@@ -1,0 +1,5 @@
+s1(17Nov2025:23:36:17):  xrun button_sync.v button_sync_tb.v 
+s2(17Nov2025:23:38:53):  xrun -64bit -gui -access r button_sync.v button_sync_tb.v 
+s3(18Nov2025:00:54:40):  xrun -64bit -gui -access r button_sync.v button_sync_tb.v 
+s4(18Nov2025:02:16:43):  xrun button_sync.v button_sync_tb.v 
+s5(18Nov2025:02:17:18):  xrun button_sync.v button_sync_tb.v 

@@ -1,0 +1,62 @@
+xrun(64): 18.09-s011: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	18.09-s011: Started on Nov 18, 2025 at 00:54:40 CST
+xrun
+	-64bit
+	-gui
+	-access r
+	button_sync.v
+	button_sync_tb.v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /vol/cadence2018/XCELIUM1809/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm button_sync_tb.b_i button_sync_tb.b_o button_sync_tb.clk button_sync_tb.rst_n
+Created probe 1
+xcelium> run
+T=5000 ns, cycle=1, b_i=0, b_o=0
+T=15000 ns, cycle=2, b_i=0, b_o=0
+T=25000 ns, cycle=3, b_i=0, b_o=0
+T=35000 ns, cycle=4, b_i=1, b_o=0
+T=45000 ns, cycle=5, b_i=1, b_o=1
+T=55000 ns, cycle=6, b_i=1, b_o=0
+T=65000 ns, cycle=7, b_i=0, b_o=0
+T=75000 ns, cycle=8, b_i=0, b_o=0
+T=85000 ns, cycle=9, b_i=1, b_o=0
+T=95000 ns, cycle=10, b_i=1, b_o=1
+T=105000 ns, cycle=11, b_i=1, b_o=0
+T=115000 ns, cycle=12, b_i=1, b_o=0
+T=125000 ns, cycle=13, b_i=1, b_o=0
+T=135000 ns, cycle=14, b_i=0, b_o=0
+T=145000 ns, cycle=15, b_i=1, b_o=0
+T=155000 ns, cycle=16, b_i=0, b_o=0
+T=165000 ns, cycle=17, b_i=0, b_o=1
+T=175000 ns, cycle=18, b_i=0, b_o=0
+Simulation complete via $finish(1) at time 185 NS + 0
+./button_sync_tb.v:55         $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	18.09-s011: Exiting on Nov 18, 2025 at 02:24:07 CST  (total: 01:29:27)
+cycle=2, b_i=0, b_o=0
+T=25000 ns, cycle=3, b_i=0, b_o=0
+T=35000 ns, cycle=4, b_i=1, b_o=0
+T=45000 ns, cycle=5, b_i=1, b_o=1
+T=55000 ns, cycle=6, b_i=1, b_o=0
+T=65000 ns, cycle=7, b_i=0, b_o=0
+T=75000 ns, cycle=8, b_i=0, b_o=0
+T=85000 ns, cycle=9, b_i=1, b_o=0
+T=95000 ns, cycle=10, b_i=1, b_o=1
+T=105000 ns, cycle=11, b_i=1, b_o=0
+T=115000 ns, cycle=12, b_i=1, b_o=0
+T=125000 ns, cycle=13, b_i=1, b_o=0
+T=135000 ns, cycle=14, b_i=0, b_o=0
+T=145000 ns, cycle=15, b_i=1, b_o=0
+T=155000 ns, cycle=16, b_i=0, b_o=0
+T=165000 ns, cycle=17, b_i=0, b_o=1
+T=175000 ns, cycle=18, b_i=0, b_o=0
+Simulation complete via $finish(1) at time 185 NS + 0
+./button_sync_tb.v:37         $finish;
+xcelium> exit
+TOOL:	xrun	18.09-s011: Exiting on Nov 18, 2025 at 02:17:18 CST  (total: 00:00:00)

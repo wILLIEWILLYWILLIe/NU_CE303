@@ -1,0 +1,161 @@
+xrun(64): 18.09-s011: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	18.09-s011: Started on Nov 11, 2025 at 15:40:34 CST
+xrun
+	-64bit
+	-gui
+	-access r
+	-xmelab_args "-warnmax 0 -delay_mode zero -maxdelays"
+	./Synthesis/alu_syn.v
+	tb_alu_wave.v
+	/vol/ece303/genus_tutorial/NangateOpenCellLibrary.v
+Recompiling... reason: file './tb_alu_wave.v' is newer than expected.
+	expected: Fri Oct 24 12:58:35 2025
+	actual:   Fri Oct 24 18:31:08 2025
+file: tb_alu_wave.v
+	module worklib.tb_alu:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_alu
+		AND2_X2
+		AND2_X4
+		AND3_X2
+		AND3_X4
+		AND4_X1
+		AND4_X2
+		AND4_X4
+		ANTENNA_X1
+		AOI211_X2
+		AOI211_X4
+		AOI21_X2
+		AOI21_X4
+		AOI221_X2
+		AOI221_X4
+		AOI222_X2
+		AOI222_X4
+		AOI22_X2
+		AOI22_X4
+		BUF_X1
+		BUF_X16
+		BUF_X2
+		BUF_X32
+		BUF_X4
+		BUF_X8
+		CLKBUF_X1
+		CLKBUF_X2
+		CLKBUF_X3
+		CLKGATETST_X1
+		CLKGATETST_X2
+		CLKGATETST_X4
+		CLKGATETST_X8
+		CLKGATE_X1
+		CLKGATE_X2
+		CLKGATE_X4
+		CLKGATE_X8
+		DFFRS_X1
+		DFFRS_X2
+		DFFR_X1
+		DFFR_X2
+		DFFS_X1
+		DFFS_X2
+		DFF_X1
+		DFF_X2
+		DLH_X1
+		DLH_X2
+		DLL_X1
+		DLL_X2
+		FA_X1
+		FILLCELL_X1
+		FILLCELL_X2
+		FILLCELL_X4
+		FILLCELL_X8
+		FILLCELL_X16
+		FILLCELL_X32
+		INV_X16
+		INV_X2
+		INV_X32
+		INV_X4
+		INV_X8
+		LOGIC0_X1
+		LOGIC1_X1
+		MUX2_X1
+		MUX2_X2
+		NAND2_X2
+		NAND2_X4
+		NAND3_X1
+		NAND3_X2
+		NAND3_X4
+		NAND4_X1
+		NAND4_X2
+		NAND4_X4
+		NOR2_X2
+		NOR2_X4
+		NOR3_X2
+		NOR3_X4
+		NOR4_X1
+		NOR4_X2
+		NOR4_X4
+		OAI211_X1
+		OAI211_X2
+		OAI211_X4
+		OAI21_X2
+		OAI21_X4
+		OAI221_X2
+		OAI221_X4
+		OAI222_X2
+		OAI222_X4
+		OAI22_X2
+		OAI22_X4
+		OAI33_X1
+		OR2_X2
+		OR2_X4
+		OR3_X1
+		OR3_X2
+		OR3_X4
+		OR4_X1
+		OR4_X2
+		OR4_X4
+		SDFFRS_X1
+		SDFFRS_X2
+		SDFFR_X1
+		SDFFR_X2
+		SDFFS_X1
+		SDFFS_X2
+		SDFF_X1
+		SDFF_X2
+		TBUF_X1
+		TBUF_X16
+		TBUF_X2
+		TBUF_X4
+		TBUF_X8
+		TINV_X1
+		TLAT_X1
+		XNOR2_X2
+		XOR2_X2
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.tb_alu:v <0x1f9f577a>
+			streams:  10, words:  7540
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:               277     136
+		UDPs:                   93      30
+		Primitives:            844       6
+		Registers:              40      69
+		Scalar wires:           49       -
+		Expanded wires:         19       3
+		Initial blocks:          7       7
+		Pseudo assignments:      3       3
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_alu:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /vol/cadence2018/XCELIUM1809/tools/xcelium/files/xmsimrc
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	18.09-s011: Exiting on Nov 11, 2025 at 15:41:19 CST  (total: 00:00:45)

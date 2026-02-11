@@ -1,0 +1,1 @@
+xrun -64bit -gui -access r mac.v mac_tb.v 

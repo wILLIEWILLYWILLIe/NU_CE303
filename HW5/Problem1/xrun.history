@@ -1,0 +1,72 @@
+s1(18Nov2025:11:14:47):  xrun mac.v mac_tb.v 
+s2(18Nov2025:11:15:02):  xrun mac.v mac_tb.v 
+s3(18Nov2025:11:15:33):  xrun mac.v mac_tb.v 
+s4(18Nov2025:11:16:41):  xrun -64bit -gui -access r mac.v mac_tb.v 
+s5(18Nov2025:11:31:51):  xrun mac.v mac_tb.v 
+s6(18Nov2025:11:34:55):  xrun mac.v mac_tb.v 
+s7(18Nov2025:11:37:51):  xrun mac.v mac_tb.v 
+s8(18Nov2025:11:46:11):  xrun mac.v mac_tb.v 
+s9(18Nov2025:11:54:51):  xrun mac.v mac_tb.v 
+s10(18Nov2025:17:52:12):  xrun mac.v mac_tb.v 
+s11(18Nov2025:18:08:37):  xrun mac.v mac_tb.v 
+s12(18Nov2025:18:09:00):  xrun mac.v mac_tb.v 
+s13(18Nov2025:18:11:36):  xrun mac.v mac_tb.v 
+s14(18Nov2025:18:11:46):  xrun mac.v mac_tb.v 
+s15(18Nov2025:18:11:55):  xrun mac.v mac_tb.v 
+s16(18Nov2025:18:12:19):  xrun mac.v mac_tb.v 
+s17(18Nov2025:18:14:28):  xrun mac.v mac_tb.v 
+s18(18Nov2025:18:16:18):  xrun mac.v mac_tb.v 
+s19(18Nov2025:18:17:12):  xrun mac.v mac_tb.v 
+s20(18Nov2025:18:18:56):  xrun mac.v mac_tb.v 
+s21(18Nov2025:18:19:13):  xrun mac.v mac_tb.v 
+s22(18Nov2025:18:23:49):  xrun mac.v mac_tb.v 
+s23(18Nov2025:18:26:32):  xrun mac.v mac_tb.v 
+s24(18Nov2025:18:28:28):  xrun mac.v mac_tb.v 
+s25(18Nov2025:18:32:21):  xrun mac.v mac_tb.v 
+s26(18Nov2025:18:37:47):  xrun mac.v mac_tb.v 
+s27(18Nov2025:18:38:50):  xrun mac.v mac_tb.v 
+s28(18Nov2025:18:39:35):  xrun mac.v mac_tb.v 
+s29(18Nov2025:18:40:17):  xrun mac.v mac_tb.v 
+s30(18Nov2025:18:43:13):  xrun mac.v mac_tb.v 
+s31(18Nov2025:18:48:04):  xrun mac.v mac_tb.v 
+s32(18Nov2025:18:55:18):  xrun mac.v mac_tb.v 
+s33(18Nov2025:18:55:47):  xrun mac.v mac_tb.v 
+s34(18Nov2025:18:57:38):  xrun mac.v mac_tb.v 
+s35(18Nov2025:18:58:51):  xrun mac.v mac_tb.v 
+s36(18Nov2025:18:59:01):  xrun mac.v mac_tb.v 
+s37(18Nov2025:19:00:12):  xrun mac.v mac_tb.v 
+s38(18Nov2025:19:00:30):  xrun mac.v mac_tb.v 
+s39(18Nov2025:19:00:52):  xrun -64bit -gui -access r mac.v mac_tb.v 
+s40(18Nov2025:19:02:23):  xrun -64bit -gui -access r mac.v mac_tb.v 
+s41(18Nov2025:19:04:45):  xrun -64bit -gui -access r mac.v mac_tb.v 
+s42(18Nov2025:19:05:48):  xrun mac.v mac_tb.v 
+s43(18Nov2025:19:07:25):  xrun mac.v mac_tb.v 
+s44(18Nov2025:19:31:42):  xrun -64bit -gui -access r mac.v mac_tb.v 
+s45(18Nov2025:19:33:26):  xrun mac.v mac_tb.v 
+s46(18Nov2025:19:33:46):  xrun -64bit -gui -access r mac.v mac_tb.v 
+s47(18Nov2025:19:43:07):  xrun mac.v mac_tb.v 
+s48(18Nov2025:19:46:06):  xrun mac.v mac_tb.v 
+s49(18Nov2025:19:46:41):  xrun mac.v mac_tb.v 
+s50(18Nov2025:19:46:59):  xrun mac.v mac_tb.v 
+s51(18Nov2025:19:48:38):  xrun mac.v mac_tb.v 
+s52(18Nov2025:19:48:55):  xrun mac.v mac_tb.v 
+s53(18Nov2025:19:49:26):  xrun mac.v mac_tb.v 
+s54(18Nov2025:20:01:40):  xrun mac.v mac_tb.v 
+s55(18Nov2025:20:02:27):  xrun mac.v mac_tb.v 
+s56(18Nov2025:20:03:10):  xrun mac.v mac_tb.v 
+s57(18Nov2025:20:03:33):  xrun mac.v mac_tb.v 
+s58(18Nov2025:20:04:37):  xrun mac.v mac_tb.v 
+s59(18Nov2025:20:07:58):  xrun mac.v mac_tb.v 
+s60(18Nov2025:20:08:29):  xrun mac.v mac_tb.v 
+s61(18Nov2025:20:09:53):  xrun mac.v mac_tb.v 
+s62(18Nov2025:20:10:02):  xrun mac.v mac_tb.v 
+s63(18Nov2025:20:10:28):  xrun mac.v mac_tb.v 
+s64(18Nov2025:20:13:39):  xrun mac.v mac_tb.v 
+s65(18Nov2025:20:13:56):  xrun mac.v mac_tb.v 
+s66(18Nov2025:20:14:15):  xrun mac.v mac_tb.v 
+s67(18Nov2025:20:15:36):  xrun -64bit -gui -access r mac.v mac_tb.v 
+s68(18Nov2025:20:23:20):  xrun mac.v mac_tb.v 
+s69(18Nov2025:20:23:58):  xrun mac.v mac_tb.v 
+s70(18Nov2025:20:27:13):  xrun mac.v mac_tb.v 
+s71(18Nov2025:20:30:16):  xrun mac.v mac_tb.v 
+s72(18Nov2025:20:49:47):  xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./mac.v ./mac_tb.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v 

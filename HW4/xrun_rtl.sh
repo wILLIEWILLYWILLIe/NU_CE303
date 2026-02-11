@@ -1,0 +1,1 @@
+xrun -64bit -gui -access r alu.v tb_alu_wave.v    

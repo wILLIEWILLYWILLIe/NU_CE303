@@ -1,0 +1,21 @@
+s1(15Oct2025:19:55:41):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s2(15Oct2025:19:57:12):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s3(15Oct2025:19:58:19):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s4(15Oct2025:19:59:17):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s5(15Oct2025:20:07:12):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s6(15Oct2025:20:10:36):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s7(15Oct2025:20:11:40):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s8(15Oct2025:20:12:36):  xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./Synthesis/alu_conv_syn.v 
+s9(15Oct2025:20:13:04):  xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./Synthesis/alu_conv_syn.v alu_conv_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v 
+s10(15Oct2025:20:14:13):  xrun -64bit -gui -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./Synthesis/alu_conv_syn.v alu_conv_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v 
+s11(15Oct2025:20:18:46):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s12(15Oct2025:20:19:16):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s13(15Oct2025:20:21:28):  xrun -64bit 
+s14(15Oct2025:20:21:40):  xrun -64bit -gui 
+s15(15Oct2025:20:22:16):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s16(15Oct2025:20:28:59):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s17(15Oct2025:20:39:29):  xrun -64bit -gui -access +r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" ./Synthesis/alu_conv_syn.v alu_conv_test.v /vol/ece303/genus_tutorial/NangateOpenCellLibrary.v 
+s18(23Oct2025:20:04:43):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s19(23Oct2025:20:05:55):  xrun -64bit -gui -accrss r alu_conv.v alu_conv_test.v 
+s20(23Oct2025:20:06:10):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 
+s21(23Oct2025:20:08:39):  xrun -64bit -gui -access r alu_conv.v alu_conv_test.v 

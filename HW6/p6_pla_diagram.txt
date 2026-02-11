@@ -1,0 +1,53 @@
+PLA Connection Diagram for Minimized Function: f = AB + A'B'D + A'C'D
+
+      Inputs:     A       B       C       D
+                  │       │       │       │
+          ┌───────┼───────┼───────┼───────┘
+          ▼       ▼       ▼       ▼
+        ┌───┐   ┌───┐   ┌───┐   ┌───┐  (Inverters/Buffers)
+        │   │   │   │   │   │   │   │
+        │   │   │   │   │   │   │   │
+        ▼   ▼   ▼   ▼   ▼   ▼   ▼   ▼
+        A   A'  B   B'  C   C'  D   D'
+        │   │   │   │   │   │   │   │
+        │   │   │   │   │   │   │   │
+  P1    X   │   X   │   │   │   │   │   ──► [AND] ──┐
+ (AB)   │   │   │   │   │   │   │   │               │
+        │   │   │   │   │   │   │   │               X  (OR connection)
+  P2    │   X   │   X   │   │   X   │   ──► [AND] ──┤
+(A'B'D) │   │   │   │   │   │   │   │               │
+        │   │   │   │   │   │   │   │               X  (OR connection)
+  P3    │   X   │   │   │   X   X   │   ──► [AND] ──┤
+(A'C'D) │   │   │   │   │   │   │   │               │
+        │   │   │   │   │   │   │   │               X  (OR connection)
+        │   │   │   │   │   │   │   │               │
+                                                    │
+                                                    ▼
+                                                 [ OR ]
+                                                    │
+                                                    ▼
+                                                 Output
+                                                    f
+
+Legend:
+  X : Programmable Connection (Fuse/Transistor intact)
+  │ : No Connection (Fuse blown)
+
+-------------------------------------------------------------------
+Explanation of Connections:
+
+1. Product Term 1 (AB):
+   - Connected to vertical lines A and B.
+   - Logic: A AND B
+
+2. Product Term 2 (A'B'D):
+   - Connected to vertical lines A', B', and D.
+   - Logic: (NOT A) AND (NOT B) AND D
+
+3. Product Term 3 (A'C'D):
+   - Connected to vertical lines A', C', and D.
+   - Logic: (NOT A) AND (NOT C) AND D
+
+Output (OR Plane):
+   - The Output 'f' column connects to all three product terms (P1, P2, P3).
+   - Logic: f = P1 OR P2 OR P3

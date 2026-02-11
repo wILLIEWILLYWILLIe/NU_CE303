@@ -1,0 +1,1 @@
+xrun -64bit -gui -access r tb_counter_compare.v 

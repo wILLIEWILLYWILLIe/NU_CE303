@@ -1,0 +1,106 @@
+$date
+    Oct 17, 2025  17:06:44
+$end
+$version
+    TOOL:	xmsim	18.09-s011
+$end
+$timescale
+    1 ps
+$end
+
+$scope module tb_FA $end
+$var reg       1 !    A $end
+$var reg       1 "    B $end
+$var reg       1 #    Cin $end
+$var wire      1 $    S  $end
+$var wire      1 %    Cout  $end
+$var integer  32 &    vec $end
+
+$scope module dut $end
+$var wire      1 '    A  $end
+$var wire      1 (    B  $end
+$var wire      1 )    Cin  $end
+$var wire      1 $    S  $end
+$var wire      1 %    Cout  $end
+$var wire      1 *    xorAB  $end
+$var wire      1 +    andAB  $end
+$var wire      1 ,    andAC  $end
+$var wire      1 -    andBC  $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+b0 &
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+$end
+#500
+b1 &
+1#
+1)
+1$
+#1000
+b10 &
+0#
+1"
+1(
+0)
+1$
+1*
+#1500
+b11 &
+1#
+1)
+1-
+0$
+1%
+#2000
+b100 &
+0#
+0"
+1!
+1'
+0(
+0)
+1$
+0-
+0%
+#2500
+b101 &
+1#
+1)
+1,
+0$
+1%
+#3000
+b110 &
+0#
+1"
+1(
+0)
+0,
+0$
+1+
+0*
+#3500
+b111 &
+1#
+1)
+1-
+1,
+1$
+#4000
+b1000 &
+#9000

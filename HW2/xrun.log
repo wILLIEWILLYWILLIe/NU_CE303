@@ -1,0 +1,72 @@
+xrun: 18.09-s011: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	xrun	18.09-s011: Started on Nov 03, 2025 at 20:16:24 CST
+xrun
+	./test.v
+file: ./test.v
+	module worklib.tb_signed_unsigned:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_signed_unsigned
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.tb_signed_unsigned:v <0x71427733>
+			streams:   4, words: 15794
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 1       1
+		Registers:              23      23
+		Initial blocks:          1       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_signed_unsigned:v
+Loading snapshot worklib.tb_signed_unsigned:v .................... Done
+xcelium> source /vol/cadence2018/XCELIUM1809/tools/xcelium/files/xmsimrc
+xcelium> run
+
+-- (UNSIGNED)
+a =   3 (0x03, 00000011)
+b =   5 (0x05, 00000101)
+res = 254 (0xfe, 11111110)  carry=1  // as signed: -2
+
+-- (SIGNED)
+a =    3 (0x03, 00000011)
+b =    5 (0x05, 00000101)
+res =   -2 (0xfe, 11111110)  overflow=0
+
+-- (SIGNED)
+a =    5 (0x05, 00000101)
+b =  -10 (0xf6, 11110110)
+res =   -5 (0xfb, 11111011)  overflow=0
+
+-- (SIGNED)
+a =  127 (0x7f, 01111111)
+b =    1 (0x01, 00000001)
+res = -128 (0x80, 10000000)  overflow=1
+
+-- (UNSIGNED)
+a = 250 (0xfa, 11111010)
+b =  20 (0x14, 00010100)
+res =  14 (0x0e, 00001110)  carry=1  // as signed: 14
+
+-- Mixed add: s_a(-20) + u_b(10)
+no cast (unsigned expr): res=246 (0xf6, 11110110)  as signed= -10
+with $signed(u_b)     : res= -10 (0xf6, 11110110)
+force $unsigned(s_a)  : res=246 (0xf6, 11110110)
+
+-- Casting order matters (3 - 5)
+$signed(u_a - u_b)      =   -2 (0xfe)
+$signed(u_a)-$signed(u_b)=   -2 (0xfe)
+
+-- Compare -1 (signed) vs 255 (unsigned), both 0xFF
+signed compare  (s_a < $signed(u_b))  = 0
+unsigned compare ($unsigned(s_a) < u_b)= 0
+
+All tests done.
+
+Simulation complete via $finish(1) at time 0 FS + 0
+./test.v:132     $finish;
+xcelium> exit
+TOOL:	xrun	18.09-s011: Exiting on Nov 03, 2025 at 20:16:26 CST  (total: 00:00:02)

@@ -1,0 +1,37 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 18.14-s037_1, built Wed Mar 27 10:19:21 PDT 2019
+Options: mac.tcl 
+Date:    Tue Nov 18 20:31:39 2025
+Host:    finagle.wot.ece.northwestern.edu (x86_64 w/Linux 4.18.0-553.78.1.el8_10.x86_64) (12cores*48cpus*2physical cpus*Intel(R) Xeon(R) Gold 5317 CPU @ 3.00GHz 18432KB) (65114872KB)
+OS:      Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+Checking out license: Genus_Synthesis
+
+Threads Configured:3
+  Setting attribute of root '/': 'library' = /vol/ece303/genus_tutorial/NangateOpenCellLibrary_typical.lib
+
+  According to lef_library, there are total 10 routing layers [ V(5) / H(5) ]
+
+  Setting attribute of root '/': 'lef_library' = /vol/ece303/genus_tutorial/NangateOpenCellLibrary.lef
+Error calling ple::compute_physical_val
+invalid command name "ple::compute_physical_val"
+    while executing
+"ple::compute_physical_val cap 0 1.0 10 {0.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}"
+
+Fatal internal error, code 2f696364-2f72632f-110
+
+Dumping stack trace (tid:7f2d04edb900/main thread).
+
+Operating System: linux
+Product Version: 18.14-s037_1
+Build Date: Mar 27 2019 12:19:21
+Executable: /vol/cadence2018/GENUS181/tools.lnx86/synth/bin/64bit/genus
+Startup Options: mac.tcl 
+Current Directory: /home/gel8580/CE303/HW5/Problem1
+Stack trace:
+
+Abnormal exit.

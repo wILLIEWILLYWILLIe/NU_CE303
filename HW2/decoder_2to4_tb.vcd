@@ -1,0 +1,106 @@
+$date
+    Oct 17, 2025  16:55:04
+$end
+$version
+    TOOL:	xmsim	18.09-s011
+$end
+$timescale
+    1 ps
+$end
+
+$scope module tb_decoder_2to4 $end
+$var reg       2 !    I [1:0] $end
+$var reg       1 "    POL $end
+$var wire      4 #    Y [3:0] $end
+$var integer  32 $    vec $end
+
+$scope module dut $end
+$var wire      2 %    I [1:0] $end
+$var wire      1 &    POL  $end
+$var wire      4 #    Y [3:0] $end
+$var wire      2 '    inv_I [1:0] $end
+$var wire      4 (    and_out [3:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 !
+0"
+b1110 #
+b0 $
+b0 %
+0&
+b11 '
+b1 (
+$end
+#1000
+b1 $
+b1 !
+b1 %
+b11 (
+b10 '
+b10 (
+b1100 #
+b1101 #
+#2000
+b10 $
+b10 !
+b10 %
+b0 (
+b1 '
+b100 (
+b1111 #
+b1011 #
+#3000
+b11 $
+b11 !
+b11 %
+b1100 (
+b0 '
+b1000 (
+b11 #
+b111 #
+#4000
+b100 $
+b0 !
+1"
+1&
+b0 %
+b0 (
+b11 '
+b1000 #
+b1 (
+b0 #
+b1 #
+#5000
+b101 $
+b1 !
+b1 %
+b11 (
+b10 '
+b10 (
+b11 #
+b10 #
+#6000
+b110 $
+b10 !
+b10 %
+b0 (
+b1 '
+b100 (
+b0 #
+b100 #
+#7000
+b111 $
+b11 !
+b11 %
+b1100 (
+b0 '
+b1000 (
+b1100 #
+b1000 #
+#8000
+b1000 $
+#8000
